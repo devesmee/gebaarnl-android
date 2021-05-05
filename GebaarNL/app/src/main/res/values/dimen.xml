@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAP FRAGMENT -->
+    <dimen name="button_size">75dp</dimen>
+    <!-- CAMERA FRAGMENT -->
+    <dimen name="practice_letter_size">50sp</dimen>
+    <dimen name="show_whole_hand_text_size">25sp</dimen>
+    <dimen name="countdown_text_size">30sp</dimen>
+    <dimen name="image_view_camera">100dp</dimen>
+    <dimen name="image_view_margin">20dp</dimen>
+    <!-- SUCCESFUL PRACTICE FRAGMENT -->
+    <dimen name="well_done_margin">40dp</dimen>
+    <dimen name="well_done_title_text_size">30sp</dimen>
+    <dimen name="learned_letter_text_size">18sp</dimen>
+    <dimen name="succesful_animation_margin_top">25dp</dimen>
+    <dimen name="succesful_animation_height">300dp</dimen>
+    <dimen name="to_map_button_margin_top">50dp</dimen>
+</resources>

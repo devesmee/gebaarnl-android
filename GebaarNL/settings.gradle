@@ -1,0 +1,4 @@
+include ':mediapipelib'
+include ':mediapipe'
+include ':app'
+rootProject.name = "GebaarNL"

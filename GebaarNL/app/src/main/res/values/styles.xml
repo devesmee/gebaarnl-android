@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DEFAULT -->
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RegularButton">
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!-- SPLASH SCREEN -->
+    <style name="SplashScreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <!-- MAP FRAGMENT -->
+    <style name="MapButton">
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_height">@dimen/button_size</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+    <style name="MapButton.Orange" parent="MapButton">
+        <item name="android:backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/green</item>
+    </style>
+    <style name="MapButton.Green" parent="MapButton">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+    <!-- CAMERA FRAGMENT -->
+    <style name="CameraFrame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/orange</item>
+    </style>
+    <style name="CameraImageView">
+        <item name="android:layout_width">@dimen/image_view_camera</item>
+        <item name="android:layout_height">@dimen/image_view_camera</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/image_view_margin</item>
+        <item name="android:layout_marginEnd">@dimen/image_view_margin</item>
+    </style>
+    <style name="CameraText.ShowHand" parent="Text">
+        <item name="android:background">@color/green</item>
+        <item name="android:textSize">@dimen/show_whole_hand_text_size</item>
+        <item name="android:text">@string/show_whole_hand</item>
+    </style>
+    <style name="CameraText.PracticeLetter" parent="Text">
+        <item name="android:textSize">@dimen/practice_letter_size</item>
+        <item name="android:text">@string/button_A</item>
+    </style>
+    <style name="CameraText.Countdown" parent="Text">
+        <item name="android:textSize">@dimen/countdown_text_size</item>
+        <item name="android:text">@string/two_times</item>
+    </style>
+    <!-- SUCCESFUL PRACTICE FRAGMENT -->
+    <style name="ToMapButton" parent="RegularButton">
+        <item name="android:text">@string/to_map</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">@dimen/to_map_button_margin_top</item>
+    </style>
+    <style name="Succesful.Title" parent="Text">
+        <item name="android:textSize">@dimen/well_done_title_text_size</item>
+        <item name="android:text">@string/well_done</item>
+        <item name="android:layout_marginTop">@dimen/well_done_margin</item>
+    </style>
+    <style name="Succesful.Text" parent="Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/learned_letter_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:text">@string/letter_learned_pt1</item>
+        <item name="android:layout_marginTop">@dimen/well_done_margin</item>
+    </style>
+    <style name="SuccesfulAnimation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/succesful_animation_height</item>
+        <item name="android:layout_marginTop">@dimen/succesful_animation_margin_top</item>
+    </style>
+</resources>

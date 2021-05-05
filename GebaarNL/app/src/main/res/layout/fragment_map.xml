@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapFragment"
+    android:background="@color/map_background">
+
+    <Button
+        android:id="@+id/buttonA"
+        style="@style/MapButton.Orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/button_A"/>
+
+    <Button
+        android:id="@+id/buttonB"
+        style="@style/MapButton.Green"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toTopOf="@+id/buttonA"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_B"/>
+
+    <Button
+        android:id="@+id/buttonC"
+        style="@style/MapButton.Orange"
+        app:layout_constraintStart_toEndOf="@id/buttonB"
+        app:layout_constraintTop_toTopOf="@id/buttonB"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_C"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GebaarNL</string>
+    <!-- MAP FRAGMENT -->
+    <string name="button_A">A</string>
+    <string name="button_B">B</string>
+    <string name="button_C">C</string>
+    <!-- CAMERA FRAGMENT -->
+    <string name="three_times">Nog 3 keer!</string>
+    <string name="two_times">Nog 2 keer!</string>
+    <string name="one_time">Nog 1 keer!</string>
+    <string name="done">Finish!</string>
+    <string name="show_whole_hand">Laat je hele hand zien.</string>
+    <!-- SUCCESFUL PRACTICE FRAGMENT -->
+    <string name="well_done">Goed gedaan!</string>
+    <string name="letter_learned_pt1">Je hebt de letter</string>
+    <string name="letter_learned_pt2">geleerd</string>
+    <string name="to_map">Naar Gebarenland!</string>
+</resources>

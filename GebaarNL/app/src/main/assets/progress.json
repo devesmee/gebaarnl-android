@@ -1,0 +1,18 @@
+{
+  "left" : [
+    {
+      "letter": "A",
+      "isEnabled": "yes"
+    },
+    {
+      "letter": "C",
+      "isEnabled": "no"
+    }
+  ],
+  "right" : [
+    {
+      "letter": "B",
+      "isEnabled": "no"
+    }
+  ]
+}
